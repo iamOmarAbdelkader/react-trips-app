@@ -1,0 +1,13 @@
+.Search {
+    margin: 10px 0;
+}
+
+.Search #search-box {
+    outline: 0;
+    display: block;
+    width: 98%;
+    margin: auto;
+    padding: 5px 15px;
+    box-shadow: inset -1px -1px 6px 0px #525252;
+    border: 5px solid #f7f7f7;
+}

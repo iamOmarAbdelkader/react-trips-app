@@ -1,0 +1,29 @@
+.Trip {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 190px;
+}
+
+.Trip:hover {
+    cursor: pointer;
+}
+
+.Trip .image {
+    float: right;
+    height: inherit;
+    width: 300px;
+}
+
+.Trip .image:after {
+    content: '';
+    clear: both;
+}
+
+.Trip .image img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Cairo';
+}
+
+h6,
+p {
+    margin: 0;
+}
+
+
+/* #root div div:nth-child(1) {
+    overflow: hidden !important;
+} */
+
+body {
+    /* overflow: hidden; */
+    direction: rtl;
+    margin: 0;
+    font-size: 1.125rem;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+/* responsive */
+
+@media(max-width:600px) {
+    .Trip .image {
+        width: 150px !important;
+    }
+    .Trip .trip-content {
+        width: calc(100% - 150px) !important;
+    }
+    .trip-content .hotel {
+        font-size: 1rem !important;
+    }
+}
+
+.trip-content {
+    float: left;
+    background-color: #c9c9c9;
+    height: inherit;
+    width: calc(100% - 300px);
+    padding: 4px 10px;
+}
+
+.trip-content .hotel {
+    font-size: 1.7rem;
+}
+
+.trip-content p {
+    font-size: 1rem;
+}
+
+.trip-privileges div {
+    display: inline-block;
+}
+
+.trip-privileges span {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.trip-privileges .calender {
+    margin-right: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+
+/* btn */
+
+.btn-success {
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button;
+}
+
+button,
+select {
+    text-transform: none;
+}
+
+button,
+input {
+    overflow: visible;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
